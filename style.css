@@ -1,0 +1,57 @@
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(40,116,240,.95);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 1.2;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    align-items: center;
+    width: 65%;
+}
+#arrow
+{
+    position: absolute;
+    right: 15px;
+    top: 1%;
+    width: 21%;
+}
+.got_it
+{
+    display: inline-block;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-top: 21px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #565656;
+}
+.add_home_screen
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    color: #fff;
+}
+.content
+{
+    font-size: 20px;
+    line-height: 1.2em;
+}
