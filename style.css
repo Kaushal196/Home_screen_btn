@@ -45,7 +45,11 @@
     font-weight: 400;
     font-family: sans-serif;
 }
-.content
+.fa-plus-square
 {
-    
+    color: #fff;
+}
+body
+{
+    background-color: #000;
 }
